@@ -68,3 +68,38 @@ li a {
 li a:hover {
     background: #2E363D;
 }
+
+@media (min-width: 500px) {
+
+    .open,
+    .exit {
+        display: none;
+    }
+
+    nav {
+        visibility: unset;
+        background: none;
+        position: unset;
+        height: auto;
+    }
+
+    ul {
+        display: flex;
+        margin-top: auto;
+        width: auto;
+        float: right;
+        margin: 0;
+    }
+
+    li a {
+        color: #ADDBFF;
+        display: block;
+        padding: 1em;
+    }
+
+    .active a {
+        color: white;
+    }
+
+
+}
